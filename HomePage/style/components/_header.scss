@@ -1,0 +1,22 @@
+header{
+    display:flex;
+    height:69px;
+    .logo{
+        background-color: $logo-bg-color;
+        flex:1;
+        .logo-image{
+            background-color: $search-bg-color;
+        }
+        .logo-title{
+            background-color: $account-bg-color;
+        }
+    }
+    .search-bar{
+        background-color: $search-bg-color;
+        flex:2;
+    }
+    .account{
+        background-color: $account-bg-color;
+        flex:3;
+    }
+}
